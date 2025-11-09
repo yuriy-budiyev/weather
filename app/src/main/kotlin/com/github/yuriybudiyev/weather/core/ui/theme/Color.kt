@@ -1,4 +1,4 @@
-package com.github.yuriybudiyev.weather.ui.theme
+package com.github.yuriybudiyev.weather.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

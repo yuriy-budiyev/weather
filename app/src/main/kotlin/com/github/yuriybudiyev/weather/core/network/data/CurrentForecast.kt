@@ -4,7 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Current(
+data class CurrentForecast(
     @SerialName("last_updated_epoch")
     val lastUpdatedEpoch: Long? = null,
     @SerialName("last_updated")

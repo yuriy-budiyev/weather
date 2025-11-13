@@ -8,7 +8,7 @@ data class ForecastResponse(
     @SerialName("location")
     val location: Location? = Location(),
     @SerialName("current")
-    val current: Current? = Current(),
+    val current: CurrentForecast? = CurrentForecast(),
     @SerialName("forecast")
     val forecast: Forecast? = Forecast(),
 )

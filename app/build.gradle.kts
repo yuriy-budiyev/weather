@@ -67,6 +67,7 @@ dependencies {
     implementation(libs.bundles.kotlin.coroutines)
     implementation(libs.bundles.retrofit)
     implementation(libs.bundles.hilt)
+    implementation(libs.bundles.androidx.work)
     ksp(libs.bundles.hilt.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

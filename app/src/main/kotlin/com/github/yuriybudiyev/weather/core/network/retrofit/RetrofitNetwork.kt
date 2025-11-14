@@ -32,7 +32,7 @@ class RetrofitDataSource @Inject constructor() {
         val networkJson = Json { ignoreUnknownKeys = true }
         weatherService = Retrofit
             .Builder()
-            .baseUrl("http://api.weatherapi.com/v1/")
+            .baseUrl("https://api.weatherapi.com/v1/")
             .addConverterFactory(networkJson.asConverterFactory("application/json".toMediaType()))
             .build()
             .create(WeatherService::class.java)

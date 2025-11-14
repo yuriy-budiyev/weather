@@ -6,9 +6,9 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class ForecastResponse(
     @SerialName("location")
-    val location: Location? = Location(),
+    val location: Location? = null,
     @SerialName("current")
-    val current: CurrentForecast? = CurrentForecast(),
+    val current: CurrentForecast? = null,
     @SerialName("forecast")
-    val forecast: Forecast? = Forecast(),
+    val forecast: Forecast? = null,
 )

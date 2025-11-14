@@ -16,7 +16,7 @@ data class CurrentForecast(
     @SerialName("is_day")
     val isDay: Int? = null,
     @SerialName("condition")
-    val condition: WeatherCondition? = WeatherCondition(),
+    val condition: WeatherCondition? = null,
     @SerialName("wind_mph")
     val windMph: Float? = null,
     @SerialName("wind_kph")

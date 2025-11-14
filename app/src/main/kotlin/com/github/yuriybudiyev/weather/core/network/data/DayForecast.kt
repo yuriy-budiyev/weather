@@ -42,7 +42,7 @@ data class DayForecast(
     @SerialName("daily_chance_of_snow")
     val dailyChanceOfSnow: Float? = null,
     @SerialName("condition")
-    val condition: WeatherCondition? = WeatherCondition(),
+    val condition: WeatherCondition? = null,
     @SerialName("uv")
     val uv: Float? = null,
 )

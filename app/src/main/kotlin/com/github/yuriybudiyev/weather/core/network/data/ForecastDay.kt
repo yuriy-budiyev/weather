@@ -10,9 +10,9 @@ data class ForecastDay(
     @SerialName("date_epoch")
     val dateEpoch: Long? = null,
     @SerialName("day")
-    val day: DayForecast? = DayForecast(),
+    val day: DayForecast? = null,
     @SerialName("astro")
-    val astro: AstroForecast? = AstroForecast(),
+    val astro: AstroForecast? = null,
     @SerialName("hour")
-    val hours: List<HourForecast> = ArrayList(),
+    val hours: List<HourForecast>? = null,
 )

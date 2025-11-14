@@ -28,5 +28,14 @@ class MainActivity: ComponentActivity() {
                 }
             }
         }
+        /*lifecycle.coroutineScope.launch {
+            withContext(Dispatchers.IO) {
+                val weather = RetrofitDataSource().getWeather()
+                Log.d(
+                    "WEATHER",
+                    weather.toString(),
+                )
+            }
+        }*/
     }
 }
